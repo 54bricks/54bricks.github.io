@@ -6,12 +6,8 @@ html, body {
 }
 
 body {
-    margin: 0;
-    background: url('../img/bg.jpg');
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    font-family: 'Merriweather', serif;
-    font-size: 62.5%;
+  font-family: 'Antic Slab', serif;
+  font-size: 62.5%;
 }
 
 .page {
@@ -19,42 +15,57 @@ body {
 	height: 100%;
 }
 
-#title {
-	width: 800px;
-	height: 300px;
-	top: 50%;
-	left: 50%;
-	margin: -100px 0 0 -400px;	
-	position: absolute;
-	text-align: center;
+.logo {
+  margin-top: 12.5%;
+}
+
+#title, #contact {
+  margin: 0 auto;
+  max-width: 550px;
+  text-align: center;
 }
 
 #title h1 {
-	color: #fff;
-	font-weight: 100;
-	font-size: 10em;
-	margin: 0 0 30px 0;
-	padding: 0;
+  font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 3em;
+	color: #1D3F59;
+  text-transform: uppercase;
+}
+
+#title p {
+  font-size: 1.8em;
+  line-height: 1.8em;
+  color: #666;
 }
 
 #title a:link,
 #title a:visited {
-    color: #fff;
-    color: rgba(255,255,255,0.5);
-    text-decoration: none;
-    font-size: 2em;
-    padding-bottom: 10px;
+  color: #5A7489;
+  text-decoration: none;
 }
 
 #title a:hover {
-    color: #fff;
-    border-bottom: 1px solid #fff;
+  color: #4C5B67;
+  border-bottom: 1px solid #4C5B67;
 }
 
-#title a:active {
-    color: #000;
-    color: rgba(0,0,0,0.4);
-    border-bottom: none;
+.button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.2em;
+  line-height: 8em;
+  background-color: #1D3F59;
+  color: #FFF;
+  border-radius: 0.2em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: all ease-in-out 0.2s;
+  -moz-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
 }
 
-
+.button:hover {
+  background-color: #042640;
+}
